@@ -1,0 +1,55 @@
+Web Development => A process of developing web apps (Websites).
+
+3 Fundament Techonlogies : 
+HTML (HyperText Markup Language)
+CSS (Cascading Style Sheet)
+JS (JavaScript)
+
+
+HTML : Code
+
+Prerequisits : 
+1. Code Editor : VS Code
+
+HTML : Head Body
+Tags : These are infomative commands to the browser.
+
+A file name has 2 parts
+1 Name : Give any name of your choice
+2 Extension : .html
+
+Extensions : 
+
+.mp3 => Audio
+.mp4 => Video
+.doc => Word document
+.pdf => Document format etc
+
+
+Tags in HTML 
+<title></title> => Used to show the title of web page on the tab of the browser
+
+Heading
+<h1></h1> => Used to write the heading on a page (Largest heading)
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6> => Smallest heading
+
+<p></p> => Paragraph Tag (Used to write decriptive text/paragraph)
+
+
+Attributes => These are the options which can be given to a tag to provide extra features.
+
+<link> => Used to link CSS files
+<script> => Used to link JS files
+
+<meta> => Data about data (Any information that describes our web page) (SEO (Search Engine Optimization))
+
+
+HTML Versions : 
+1.0
+..
+
+5.0 =>

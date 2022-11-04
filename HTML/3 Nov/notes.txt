@@ -1,0 +1,19 @@
+List.
+
+3 types : 
+    1. (ol)Ordered List : <ol></ol>
+    2. (ul)Unordered List: <ul></ul>
+    3. (dl>)Description List : <dl></dl>
+
+Find out how to skip certain items in an ordered list with a non-numeric bullet i.e it starts from A,a,I or i
+
+Images : <img>
+
+
+2 types of Tags : 
+    1. Container Tags : Which has opening and closing both <h1> </h1>
+    2. Empty Tags : Which does not have closing. <img>
+
+Types of Elements (Tags) based on the size they occupy
+    1. Block Level Elements : Occupy complete width of the screen <h1></h1> <p></p>
+    2. Inline Elements : Occupy only the space required by its content <img> <span></span>
