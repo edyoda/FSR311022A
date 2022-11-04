@@ -1,0 +1,18 @@
+Basic Styling
+
+CSS/Styling : Properties and their values
+Syntax : <property-name> : <proerty-value>
+Example : color : red;
+font-fize: 25px;
+background-color: green;
+text-align : left|center|right|justify;
+
+
+Note : text-align: center will only show the difference if there is any space in the line to adjust
+
+<div></div>: Block level element used to group the items on an HTML page.
+
+HyperLinks : These are the text which helps us in navigating to a differnt page.
+<a></a> : Anchor Tag
+
+Bookmarking : Navigating the user on the same page using the id of the element.
