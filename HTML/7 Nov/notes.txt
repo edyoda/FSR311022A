@@ -1,0 +1,17 @@
+Table => Collection of rows and columns.
+<table>
+    <caption></caption> => The title of the table`
+    <thead>
+        <tr> => Collection of columns
+            <th></th> => Title of the column
+        </tr>
+    </thead>
+    <tbody>
+        <tr> => Collection of table data
+            <td></td> => Table data (cell)
+        </tr>
+    </tbody>
+</table>
+
+
+Comments in HTML : <!-- COMMENT  -->
