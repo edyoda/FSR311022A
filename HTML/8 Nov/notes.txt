@@ -1,0 +1,14 @@
+Merging of table cells in HTML
+
+horizontal direction => colspan
+vertical direction => rowspan
+
+============================================
+HTML 5
+New feautres 
+
+Semantic Tags => <header> <nav> <section> <article> <footer> <main> <aside> etc SEO (Search Engine Optimization)
+Form Elements
+Multimedia Support
+Geolocation API
+Storage API

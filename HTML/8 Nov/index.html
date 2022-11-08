@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Tables</title>
+        <style>
+            table,th,td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            th, td {
+                padding: 5px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Tables</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Science</td>
+                    <td>Maths</td>
+                    <td>Science</td>
+                    <td rowspan="2">Social Science</td>
+                    <td>English</td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>Science</td>
+                    <td>Maths</td>
+                    <!-- <td>Social Science</td> -->
+                    <td>Science</td>
+                </tr>
+                <tr>
+                    <td colspan="5">Lunch</td>
+                </tr>
+                <tr>
+                    <td>Maths</td>
+                    <td>Science</td>
+                    <td rowspan="2">English</td>
+                    <td>Science</td>
+                    <td>Social Science</td>
+                </tr>
+                <tr>
+                    <td>Maths</td>
+                    <td>Science</td>
+                    <!-- <td>English</td> -->
+                    <td>Science</td>
+                    <td>Social Science</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
