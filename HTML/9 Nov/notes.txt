@@ -1,0 +1,13 @@
+New Tags in HTML 5 : 
+
+main, section, header, footer, article, aside, 
+
+
+<pre> = Preformatted text => Takes the text inside as it is and print it on the browser i.e same space and line breaks and alignmnets that are given to it.
+
+<details> and <summary> => Used to show the details which are hidden by default and when you click on summary, the detail appears 
+
+<figure> and <figcaption> => Used to create group of image and its caption
+
+
+Refernce URL : https://www.w3schools.com/TAGS/default.asp
