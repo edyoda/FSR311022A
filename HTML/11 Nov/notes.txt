@@ -1,0 +1,24 @@
+Forms => Collection of fields to capture information from user.
+
+<form></form>
+
+<input> => Used to take information from the user.
+
+Registration Form : 
+Full Name => text
+Address => text
+Email => email
+Mobile No => number
+Password => password
+Gender =>
+DOB
+Nationality
+I agree
+
+
+http://127.0.0.1:5500/11%20Nov/index.html?name=John&address=123+ABC+Street&bloodgroup=B%2B&email=john%40gmail.com&mobile=12312312312&password=ABCD&gender=on&hobbies=on&hobbies=on
+
+
+http://127.0.0.1:5500/11%20Nov/index.html?name=John&address=123+ABC+Street&bloodgroup=AB%2B&email=john%40example.com&mobile=1231231231&password=asdf&gender=m&hobbies=music&hobbies=reading&iagree=on
+
+Note : GET and POST are them methods by which we can transfer the data on internet.

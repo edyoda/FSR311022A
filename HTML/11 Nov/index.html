@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms Introduction</title>
+    </head>
+    <body>
+        <h1>Registraion Form</h1>
+        <form method="post" action="https://asdf.com/submit-form">
+            <div>
+                Name<input minlength="5" name="name" type="text">
+            </div>
+            <div>
+                Address<input name="address" type="text">
+            </div>
+            <div>
+                Blood Group <input name="bloodgroup" type="text">
+            </div>
+            <div>
+                Email<input name="email" type="email">
+            </div>
+            <div>
+                Mobile No<input name="mobile" type="tel" maxlength="10">
+            </div>
+            <div>
+                Password <input minlength="8" maxlength="12" name="password" type="password">
+            </div>
+            <div>
+                Gender <br> 
+                <input value="m" name="gender" type="radio"> Male 
+                <input value="f" name="gender" type="radio"> Female 
+                <input value="o" name="gender" type="radio"> Others
+            </div>
+            <div>
+                Hobbies <br>
+                <input value="music" name="hobbies" type="checkbox">Listening Music
+                <input value="dancing" name="hobbies" type="checkbox">Dancing
+                <input value="reading" name="hobbies" type="checkbox">Reading
+                <input value="gardening" name="hobbies" type="checkbox">Gardening
+            </div>
+            <input name="iagree" type="checkbox">I agree to the terms and conditions.<br>
+            <input type="submit" value="Register">
+        </form>
+    </body>
+</html>
