@@ -1,0 +1,22 @@
+Multimedia => Collection of items containing audio/video/images etc.
+
+
+< HTML 5
+There was no direct support of adding multimedia.
+
+HTML 5 :
+<video></video>
+<audio></audio>
+
+Attributes : 
+controls => To add controls in a video/audio player
+autoplay => Automatically plays the video/audio when someone lands on the page
+loop => Repeatedly play the same video/audio until manually paused.
+muted => To play the video/audio without audio
+
+
+iframe => A tag which helps us in embedding another web page in our webpage.
+XSS (Cross Site Scripting)
+
+
+SVG (Scalable Vector Graphics)
