@@ -1,0 +1,24 @@
+font-style: italic;
+font-weight: 500;
+font-face => To set the font
+
+padding: 
+
+padding-top:16px;
+padding-bottom:16px;
+padding-left: 16px;
+padding-right: 16px;
+
+margin-top: 16px;
+margin-bottom: 16px;
+margin-left: 16px;
+margin-right: 16px;
+
+
+line-height: 14px;
+color: rgba(0,0,0,0.7);
+
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-botton-left-radius: 10px;
+border-bottom-right-radius: 10px;
