@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Part -2 </title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <form method="get">
+        <div>
+            <label for="dob">Date of Birth</label>
+            <input id="dob" name="dob" type="date">
+        </div>
+        <div>
+            <label for="country">Country</label>
+            <select id="country" name="country" multiple>
+                <option value="in">India</option>
+                <option value="us">United States</option>
+                <option value="gr">Germany</option>
+                <option value="uk">United Kingdom</option>
+                <option value="cn">China</option>
+            </select>
+        </div>
+        <div>
+            Gender <br>
+            <input name="gender" id="male" type="radio" value="m">
+            <label for="male">Male</label>
+            
+            <input name="gender" id="female" type="radio" value="f">
+            <label for="female">Female</label>
+
+            <input name="gender" id="others" type="radio" value="o">
+            <label for="others">Other</label>
+        </div>
+
+        <div>
+            <label for="gift">Select A Gift</label>
+            <select name="gift" id="gift">
+                <option value="">--Select an Item--</option>
+                <optgroup label="Home Products">
+                    <option>Bag</option>
+                </optgroup>
+
+                <optgroup label="Electronics">
+                    <option>Headphones</option>
+                    <option>Mobile</option>
+                </optgroup>
+                
+                <optgroup label="Edibles">
+                    <option>Chocolate</option>
+                    <option>Dry Fruits</option>
+                </optgroup>
+
+                <optgroup label="Toys">
+                    <option>Doll</option>
+                    <option>Remote Cont Plane</option>
+                    <option>Remote Cont Car</option>
+                </optgroup>
+            </select>
+        </div>
+
+
+        <div>
+            <label for="nation">Nationality</label>
+            <input id="nation" list="nationality" name="nationality" >
+            <datalist id="nationality">
+                <option value="India"></option>
+                <option value="United States"></option>
+                <option value="United Kingdom"></option>
+                <option value="Germany"></option>
+            </datalist>
+        </div>
+
+        <div>
+            <label for="color">Select a color</label>
+            <input id="color" name="color" type="color" >
+        </div>
+        <label for="profilePicture">Selet your profile picture</label>
+        <input id="profilePicture" type="file" accept="">
+        <br>
+        <input required placeholder="Enter your name" type="text">
+        <br>
+        <label for="email">Email</label>
+        <input required id="email" placeholder="john@email.com" type="email">
+        <input type="reset">
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
