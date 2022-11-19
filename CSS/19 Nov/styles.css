@@ -1,0 +1,46 @@
+.heading {
+    color: #2c9de8;
+    font-size: 50px;
+    /* text-align: left; */
+    /* text-align: right; */
+    /* text-align: center; */
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    text-decoration: line-through;
+}
+
+#my-span {
+    color: blue;
+}
+
+p {
+    /* background-color: green; */
+    text-align: justify;
+    font-style: italic;
+    font-weight: 500;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-family: 'Rubik Distressed', cursive;
+}
+
+div {
+    font-size: 30px;
+}
+
+.original-price {
+    text-decoration: line-through;
+}
+
+a {
+    text-decoration: none;
+}
+
+.transfrom-exp {
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    text-transform: capitalize;
+}
+
+.custom-space {
+    word-spacing: 40px;
+}

@@ -1,0 +1,30 @@
+CSS (Cascading StyleSheet)
+3 ways to write CSS 
+    1. Inline CSS : When we write css using style attribute in any HTML tag.
+    2. Internal CSS : When we write css using style tag in any HTML page.
+    3. External CSS : When we write css in a seprate file and attach it to HTML page using <link> tag.
+
+Selector? It is a symbol used to selct any HTML element on the page.
+    1. Class Selector (.) => It is used to identify/ select the elements which have css classes on them. (WE CAN USE SAME CLASS NAME AT MULTIPLE ELEMENTS IN HTML)
+    2. ID Selector (#) => It is used to identify/select the elements which havs matching id on them. (ID HAS TO BE UNIQUE ON AN HTML PAGE.)
+    3. Tag Selector (Tag name) => It is used to apply the set of css properties to all the matching tags
+
+Syntax CSS : 
+property-name : value;
+
+Text Properties/ Text Styling : 
+    color: red;
+    text-align: left | right | center | justify;
+    font-style : italic;
+    text-decoration: underline | overline | line-through | none;
+    text-transorm : uppercase | lowercase | capitalize;
+    font-weight : 100 - 900 | lighter | bold | bolder;
+    word-spacing : 10px;
+    letter-spacing: 10px;
+    font-family: 'Rubik Distressed', cursive;
+
+
+Color Codings : 
+    1. Color Names : Eg. red, blue, green, voilet etc
+    2. Hex Code : #XXXXXX #ff112e #3576a2
+    3. RGB Code : rgb(200,150,70)
