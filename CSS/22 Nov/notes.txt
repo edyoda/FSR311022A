@@ -1,0 +1,14 @@
+Box Model ?
+Every HTML element is a box for CSS.
+
+Layers of Box Model : 
+
+1. Content (Inner most Layer) : It has the content/childrens of an element.
+2. Border : This defines the fencing/bounding area of an element (This is the fencing of my house).
+3. Padding: This is the space between the border/fencing and the content
+4. Margin : This is the space outside the box (This is the space between 2 neighbours.)
+
+
+
+Total Widht of box : Width of content + Widht of padding + width of border
+Same for calculating height as well.
