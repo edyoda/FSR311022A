@@ -1,0 +1,23 @@
+Icons => Representational figures which represent a specific topic.
+
+
+Display Values : 
+    block : 
+    inline : We can not apply height/width or margin properties to an inline element i.e it will not take any effect.
+    inline-block : Combination of block and inline elements i.e it allows us to change width/height margin etc and it keeps the element in the same line (behaves like inline element). 
+
+
+Position?
+
+Types of positions
+
+position: <position-value>;
+
+    static: Default position of all HTML elemments (Item will follow the same order on screen as they are written in code)
+    relative: Helps in shifting the element RELATIVE TO ITS ORIGINAL POSITION ON THE SCREEN
+    absolute: When position is set to absolute the parent and neighbours(siblings) adjust the remaining space accordingly. 
+    Helps in shifting the element in 2 ways
+        1. If the parent is static then the distance is calculated in respect to the html tag (browser's window).
+        2. If the parent is non static then distance is calculated in respsect to the parent.
+    fixed : Remains at fixed position in respect to the browser
+    sticky: It behaves like fixed when give any TBLR value.
