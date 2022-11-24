@@ -1,0 +1,31 @@
+.grad-exp-1 {
+    height: 100px;
+    /* background-color: teal; */
+    /* background : linear-gradient(to right, aqua, red, yellow, green); */
+    /* background : linear-gradient(to bottom, aqua, red, yellow, green); */
+    background : linear-gradient(50deg, aqua, red, yellow, green);
+}
+
+.grad-exp-2 {
+    height: 200px;
+    width: 200px;
+    /* background-color: aqua; */
+    margin-top: 20px;
+    background: linear-gradient(45deg, red, green, blue)
+}
+
+
+
+.grad-exp-3 {
+    height: 100px;
+    /* background-color: aliceblue; */
+    background: radial-gradient(red,blue);
+}
+
+.grad-exp-4 {
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    /* background-color: antiquewhite; */
+    background: radial-gradient(aqua,red);
+}

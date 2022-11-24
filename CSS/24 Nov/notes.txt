@@ -1,0 +1,11 @@
+Gradient : Combination of colors in different pattern.
+
+2 Types of Gradients : 
+    1. Linear Gradient
+    2. Radial Gradient
+
+Flex ? A tool(property) in CSS that helps us in designing 1D layouts.
+
+display: flex;
+justify-content: flex-start | flex-end | center | space-betwen | space-around | space-evenly
+flex-wrap: wrap (If more items are present in the container/parent and they flows outside the width of the container/parent)

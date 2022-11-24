@@ -1,0 +1,38 @@
+.navbar {
+    background-color: aqua;
+    padding: 10px 0px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+a {
+    margin: 0px 10px;
+}
+
+.center {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.flex-column {
+    flex-direction: column;
+    height: 400px;
+    flex-wrap: wrap;
+}
