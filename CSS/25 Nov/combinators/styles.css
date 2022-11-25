@@ -1,0 +1,32 @@
+/* p {
+    color: red;
+} */
+
+/* .container {
+    color: red;
+} */
+
+/* DECENDENT SELECTOR */
+/* Change the color of all the paragraphs falling under container */
+.container p {
+    color: red;
+    /* font-size: 20px; */
+}
+/* ANY DECENDENT OF CONTAINER WHO IS "P" CHANGE THEIR COLOR TO RED */
+
+
+
+/* DIRECT CHILD SELECTOR (>) */
+/* Change the font size of all paragraphs which are direct childs of container to 30px  */
+.container > p {
+    font-size: 30px;
+}
+
+
+.inner-div div + p {
+    background-color: green;
+}
+
+div ~ p {
+    font-weight: bolder;
+}

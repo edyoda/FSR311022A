@@ -1,0 +1,28 @@
+.heading {
+    text-shadow: 6px 9px 11px #ff0010;
+}
+
+.card {
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 8px 7px 9px 2px grey;
+    margin: 10px 0px;
+}
+
+.info {
+    padding: 5px;
+    /* text-align: justify; */
+}
+
+img {
+    /* border-radius: 10px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

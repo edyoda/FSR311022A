@@ -1,0 +1,35 @@
+Shadow
+2 Types 
+    1. Text Shadow : text-shadow
+    2. Box Shadow : box-shadow
+
+
+
+Combinators : These are symbols which helps us in writing the CSS in combination of selectors i.e more than 1 selector at a time.
+Types of combinators : 
+4 Types of combinators : 
+    1. Decendant Selector ( ) Space : It selects any child which is decendent (falling under the hierarchy of the given parent) and applies the properties given to it.
+    2. Direct Child Selector (>) : It selects any child who is immediate child(direct child) of the given parent and applies the properties given to it.
+    Note (2) : Every direct child is the decendent of the same parent but not vice versa.
+    3. Adjacent Sibling Selector (+) :
+    4. General Sibling Selector (~) : 
+
+Hierarchy
+
+A
+    B
+        D
+        E
+            H
+                I
+        M
+        N
+            O
+    C
+        F
+            J
+            K
+                L
+            P
+        G
+            Q
