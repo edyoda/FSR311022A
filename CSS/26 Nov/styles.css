@@ -1,0 +1,28 @@
+.heading {
+  background-color: aqua;
+  width: 200px;
+  text-align: center;
+}
+
+.heading:hover {
+  color: grey;
+  transform: scale(1.1);
+}
+
+
+.bg-exp {
+    height: 500px;
+    /* background-color: azure; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: #ffffff;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    /* background: url() no-repeat center cover; */
+}
