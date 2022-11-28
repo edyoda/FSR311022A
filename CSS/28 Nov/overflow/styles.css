@@ -1,0 +1,43 @@
+.img-container {
+  border: 1px solid black;
+  width: 800px;
+  height: 600px;
+
+  /* overflow: visible; */
+  /* overflow: hidden; */
+  /* overflow:scroll; */
+  overflow: auto;
+}
+
+/* .image {
+    width: 100%;
+} */
+
+.card {
+  width: 300px;
+  margin: 20px;
+  box-shadow: 5px 5px 5px grey;
+}
+.card .image {
+  width: 100%;
+}
+
+.info {
+  padding: 10px 0px;
+}
+
+.card h3 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  /* word-break: break-all; */
+  word-break: break-all;
+}
+
+.card p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}

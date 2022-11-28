@@ -1,0 +1,1 @@
+Overflow : When the child/element has greater widht and height than that of its parent, then it flows outside.

@@ -1,0 +1,27 @@
+.exp1 {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  display: inline-block;
+  margin: 10px;
+  /* transform: translateX(50px); */
+  /* transform: translateY(50px); */
+  /* transform: translate(40px,40px); */
+
+  /* transform: rotateX(45deg);
+    transform: rotateY(45deg);
+    transform: rotate(45deg); */
+
+  /* transform: skew(45deg); */
+
+  /* transform: scale(1.1); */
+
+  /* transition-property: background-color;
+    transition-duration: 3s; */
+    transition: background-color 1s, transform 1s;
+}
+
+.exp1:hover {
+  background-color: teal;
+  transform: scale(1.3);
+}
