@@ -1,0 +1,83 @@
+article {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: aquamarine;
+}
+
+article:hover {
+    background-color: aliceblue;
+}
+
+/* ACTIVE LINK : LINKS WHICH ARE NOT YET OPENED/VISITED */
+.external-url:link { 
+    font-size: 30px;
+    color: red
+}
+
+/* VISITED LINKS : LINKS WHICH ARE VISITED/OPENED AT LEAST ONCE */
+.external-url:visited {
+    font-size: 10px;
+    color: green;
+}
+
+.input-exp:focus {
+    background-color: green;
+}
+
+.input-exp2:disabled {
+    background-color: black;
+    cursor: not-allowed
+}
+
+ article > p:first-of-type {
+    color: red;
+}
+
+/*
+article > p:last-of-type {
+    color: white;
+}
+
+article >p:nth-of-type(2) {
+    font-size: 30px;
+} */
+
+/* article >p:first-child {
+    color: red;
+} */
+
+/* last-child and nth-child() */
+
+
+
+/* PSEUDO ELEMENT (::) */
+
+article>p::first-letter {
+    font-size: 50px;
+}
+
+
+article>p::first-line {
+    background-color: yellow;
+}
+
+p::selection {
+    background-color: red;
+    color: blue;
+}
+
+.movies-list {
+    list-style: none;
+}
+
+.movies-list li::before {
+    content: "> ";
+    /* content: url(https://svgsilh.com/svg/1293392.svg); */
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+
+p::after {
+    content:".";
+}
