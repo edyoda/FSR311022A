@@ -1,0 +1,30 @@
+RWD (Responsive Web Design)?
+Devices used to visit websites  : 
+1. Desktop
+2. Laptop
+3. Tablets
+4. Mobile Phones
+
+5. Large Monitors (21 Inch +)
+6. TV (32 + Inch)
+
+
+View port : Visible area of your screen
+
+To create a responsive web page : 
+    1. Consider view port -> With the help of meta tag.
+    2. Use % and vw/vh instead of using px.
+    3. Use max-width and max-height properties
+    4. Media Queries
+    5. Consider Breakpoints
+
+Approaches of RWD : 
+1. Mobile first approach : When you write CSS by deafult considering mobile as the primary device and write media queries for desktop devices.
+2. Desktop first approach : When you write CSS by deafult considering desktop as the primary device and write media queries for mobile devices.
+
+Breakpoints :
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV

@@ -1,0 +1,52 @@
+/* 1201px and more —  Extra large screens, TV */
+.exp-div {
+    width: 24%;
+    /* min-width: 400px; */
+    max-width: 600px;
+    height: 200px;
+    background-color: red;
+    display: inline-block;
+}
+
+.hamburger-icon {
+    width: 20px;
+    display: none;
+}
+
+/* 1025px — 1200px: Desktops, large screens */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .exp-div {
+        width: 24%;
+        background-color: blue;
+    }
+}
+
+
+/* 769px — 1024px: Small screens, laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .exp-div {
+        width: 32%;
+        background-color: green;
+    }
+}
+
+
+/* 481px — 768px: iPads, Tablets */
+@media only screen and (min-width:481px) and (max-width: 768px) {
+    .exp-div {
+        width: 45%;
+        background-color: yellow;
+    }
+}
+
+
+/* 320px — 480px: Mobile devices */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .exp-div {
+        width: 95%;
+    }
+
+    .hamburger-icon {
+        display: inline;
+    }
+}
