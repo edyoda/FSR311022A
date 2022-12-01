@@ -1,6 +1,7 @@
 /* 1201px and more —  Extra large screens, TV */
 .exp-div {
-    width: 24%;
+    /* width: 24%; */
+    width: 95%;
     /* min-width: 400px; */
     max-width: 600px;
     height: 200px;

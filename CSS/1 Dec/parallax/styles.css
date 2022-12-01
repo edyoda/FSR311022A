@@ -1,0 +1,9 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    background: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/p-5.jpg);
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+
+    background-attachment: fixed;
+}

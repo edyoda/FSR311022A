@@ -1,0 +1,20 @@
+Color Code : 
+Hex Code : 8 digits 
+First 6 are color Code
+Last 2 shows transparencey
+Eg #0000006e
+
+Display none vs Visibility hidden
+
+
+Parallax Effect : 
+background-attachment : fixed;
+
+
+Unit of measurement : 
+px (pixels)
+% (percentage)/vw vh
+em
+rem
+
+line-height: set the height of the line when using text
