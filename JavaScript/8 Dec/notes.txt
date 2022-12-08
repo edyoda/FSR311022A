@@ -1,0 +1,68 @@
+JavaScript? A scripting/programming language.
+Parts of web dev : 
+1 Front End : HTML, CSS, JS
+2 Back End : Java, Python, PHP, JS etc
+
+Frameworks in JS :
+Front End : Angular, React, Vue, jQuery etc
+Back End : Express JS, Nest JS, Ember JS, NextJS etc
+
+JS is case sensitive language.
+
+JavaScript 
+1. Variable : It is used to store data in a programming language and the value can vary from time to time.
+Syntax : 
+var <name-of-variable>=<value-of-variable>;
+
+
+How to decide what name should we give to a variable?
+
+Rules of naming a variable
+1. You can not give space in the name of a variable.
+2. You can use alphabets, digits, _ and $ in the name of a variable & You can not start the name of a variable with a number.
+3. You can't use keyword (reserved words) as the name of variable e.g (this, var, let, const, while, for , of etc)
+
+
+// Suggest a variable name which will hold the value of the disocunt on earpohnes?
+
+Patterns of naming variables : 
+var earphones_discount = 10; // Snake case
+var EarphonesDiscount = 10; // Pascal case
+var earphonesDiscount = 10; // Camel case
+
+// Sugges a variable name which will hold the value of age of the user?
+
+var age = 20;
+
+var user_age = 20; // Snake case
+var UserAge = 20; // Pascal case
+var userAge = 20; // Camel case
+
+
+var scienceMarks = 80;
+
+// hello this is a very long variable name
+
+var helloThisIsAVeryLongVariableName;
+
+Snake Case => SQL
+Pascal Case => .net
+Camel Case => JavaScript
+
+
+Data Type => Type of data which can be stored into a variable.
+
+2 Classes of Data Types : 
+
+1. Primitive/Fundamental/Basic Data Types
+    1.1 Numbers : 10,20,30, -20, -10, 0 , 12.41, 68.123 etc
+    1.2 String : John Doe, Jane, Alex, ABCD, XYZ
+    1.3 Boolean : true or false
+    1.4 Null : When you don't have any value to assign to a variable then you assign null to it. (EMPTY)
+    1.5 Undefined : When no value is given to a variable (NOT EVEN NULL)
+2. Non Primitive/User Defined/Reference/Advanced Data Types
+    2.1 Arrays : Collection of homogenous data types.
+    2.2 Objects : Collection of key value pairs
+
+
+NOTE : ANYTHING THAT WE WRITE WITHIN DOUBLE OR SINGLE QUOTES IS A STRING
