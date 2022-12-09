@@ -1,0 +1,12 @@
+Alert : Box which shows alert message to the user and has a Ok button with it.
+
+
+String operations : 
+length : Returns total count of characters inside a string.
+
+
+index : It is position/address of any character inside a string in JS. It starts from 0 and goes till n-1 (where n is the length of the string).
+charAt(index) : It will return the character at the given index.
+substring(startIndex,endIndex) : It will return a sub(smaller) string from the main string falling between the given indexes, where the end index is not included.
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
