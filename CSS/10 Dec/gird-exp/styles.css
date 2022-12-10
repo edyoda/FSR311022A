@@ -1,0 +1,23 @@
+.card {
+    /* width: 400px; */
+    box-shadow: 5px 5px 5px grey;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card .info {
+    padding: 10px
+}
+
+.container {
+    display: grid;
+    /* grid-template-columns: 250px 250px 250px 250px; */
+    /* grid-template-columns: auto auto auto auto; */
+    grid-template-columns: repeat(6,auto);
+    /* column-gap: 20px;
+    row-gap: 20px; */
+    gap: 20px;
+    /* justify-content: center; */
+}
