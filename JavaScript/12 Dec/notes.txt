@@ -1,0 +1,14 @@
+Control Flow?
+
+if-else statement
+
+
+Syntax : operand <operator> operand
+E.g :  5 + 5
+      10 >= 5
+
+Operator? => Symbol which works with operands
+1. Arithmatic Operators : +,-,*,/, % (Modulus) => Gives the remainder after division
+2. Comparision Operator : >, <, >=, <=, == (Equality Operator), != (Not Equal to) : Comparision operator always returns a boolean value
+3. Assignment Operator : =
+4. Logical Operators : &&, ||, !
