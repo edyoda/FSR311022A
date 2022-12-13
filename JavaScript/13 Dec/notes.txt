@@ -1,0 +1,36 @@
+Operators : 
+1. Arithmatic Operator :  Increment and Decrement
+
+Increment : 
+  Post Increment  : price++;
+  Pre Increment : ++price;
+Decrement : 
+  Post Decrement : price--;
+  Pre Decrement : --price;
+
+TRUTHY AND FALSY VALUES
+
+Truthy Values : Infinite
+Falsy Values : 
+  false
+  0
+  ""
+  null
+  undefined
+  NaN
+
+
+Comparision Operator : 
+  == (Equality) : It only compares the value and ignores the data type
+  === (Equality) : It compares both data type and value
+
+
+(Coersion) Type Casting :Conversion of one data type into another.
+  1. Implicit Coersion : Automatic conversion.
+  2. Explicit Coersion : Manual Conversion.
+
+
+  Data Type : 
+    1. Numbers : All numbers
+      Float
+      Int
