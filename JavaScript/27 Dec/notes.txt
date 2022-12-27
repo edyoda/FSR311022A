@@ -1,0 +1,37 @@
+BOM (Browser Object Model) =>An Object model Represents the current browser window
+    1. Document (DOM)
+    2. History
+        length
+        back()
+        forward()
+        go()
+    3. Location
+        href
+        protocol
+        host
+        port
+        pathname
+        search
+        hash
+    4. Screen
+        width
+        height
+        availWidth
+        availHeight
+        availTop
+        availLeft
+    5. Navigator
+        userAgent
+        geolocation
+        etc
+
+
+
+
+https://google.com/abc?search=earth#introduction
+
+protocol://hostname.domain/path?queryString#hash
+
+http://127.0.0.1:5500/26%20Dec/index.html?userName=abcd&email=john@example.com&dob=19/01/2000
+
+https://in.search.yahoo.com/?fr2=inr

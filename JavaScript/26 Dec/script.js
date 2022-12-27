@@ -50,7 +50,7 @@ function onDOMContentLoaded() {
   userNameInputField.addEventListener("blur", onBlur);
 
   function onFormSubmit(e) {
-    e.preventDefault();
+    // e.preventDefault();
     console.log("On submit event trigerred", e);
   }
 
