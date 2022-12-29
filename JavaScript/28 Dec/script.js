@@ -280,6 +280,36 @@ function onKeyUp(e) {
 
   var filteredProductList = productList.filter(onProductListFilter);
   console.log(filteredProductList);
+
+  // Remove all older cards
+  clothingSection.innerHTML = "";
+  accessoriesSection.innerHTML = "";
+
+  // Add new filtered cards
+  for (var i = 0; i < filteredProductList.length; i++) {
+    var product = filteredProductList[i];
+
+    var card = document.createElement("div");
+    card.classList.add("card");
+
+    card.innerHTML = `
+      <img
+      src=${product.preview}
+      alt="Product"
+      />
+      <div class="info">
+          <h3>${product.name}</h3>
+          <span>${product.brand}</span>
+          <h4>Rs ${product.price}</h4>
+      </div>
+    `;
+
+    if (product.isAccessory === true) {
+      accessoriesSection.append(card);
+    } else {
+      clothingSection.append(card);
+    }
+  }
 }
 
 var searchBox = document.getElementById("searchBox");
