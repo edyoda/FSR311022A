@@ -1,0 +1,74 @@
+var productData = {
+  id: "1",
+  name: "Men Navy Blue Solid Sweatshirt",
+  preview:
+    "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/08a7b230-ee8f-46c0-a945-4e835a3c01c01541402833619-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-1.jpg",
+  photos: [
+    "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/08a7b230-ee8f-46c0-a945-4e835a3c01c01541402833619-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-1.jpg",
+    "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/efc3d5b9-1bb3-4427-af53-7acae7af98951541402833591-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-2.jpg",
+    "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/c7e58861-3431-4189-9903-9880f5eebd181541402833566-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-3.jpg",
+    "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/66490b64-32de-44b4-a6e4-fe36f1c040051541402833548-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-4.jpg",
+    "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/957be784-7c5d-4e90-ab9f-0928015b22891541402833645-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-5.jpg",
+  ],
+  description:
+    "Navy solid sweatshirt with patchwork, has a round neck, long sleeves, straight hem",
+  size: [1, 1, 0, 1, 0],
+  isAccessory: false,
+  brand: "United Colors of Benetton",
+  price: 2599,
+};
+
+// .active {
+//   border: 2px solid green;
+// }
+
+// <div id="imgsContainer">
+//   <img />
+//   <img />
+//   <img />
+//   <img />
+//   <img />
+// </div>
+
+let leftPreviewImg = document.createElement("img");
+var imgsContainer = document.createElement("div");
+
+var brandSpan = document.createElement("span");
+brandSpan.innerText = productData.brand;
+
+rightContainer.append(brandSpan);
+
+function onImgClick(e) {
+  // Which img has been clicked?
+  let id = e.target.id;
+  // Get the src of clicked img
+  let src = e.target.src;
+  // Assign this src to the left preview img
+  leftPreviewImg.src = src;
+
+  var activeElement = document.getElementsByClassName("active");
+  activeElement[0].classList.remove("active");
+
+  // e.target is the img that the user has clicked
+  e.target.classList.add("active");
+
+  // 1. Remove the border from the older element
+  //   var imgChildrens = imgsContainer.children;
+  //   for (var i = 0;i<imgChildrens.length;i++) {
+  //     var imgTag = imgChildrens[i];
+  //     imgTag.classList.remove("active");
+  //   }
+
+  // // 2. Add the border to the currently clicked element
+  //   // e.target.classList.add('active');
+  //   var activeImg = document.getElementById(id);
+  //   activeTag.classList.add('active');
+}
+
+for (var i = 0; i < productData.photos.length; i++) {
+  var imageUrl = productData.photos[i];
+  var img = document.createElement("img");
+  img.src = imageUrl;
+  img.addEventListener("click", onImgClick);
+  imgsContainer.append(img);
+}
