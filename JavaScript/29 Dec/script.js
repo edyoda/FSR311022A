@@ -24,10 +24,14 @@ function onBtnClick() {
   var ajax = new XMLHttpRequest();
 
   // Step 2 : Mention the end point and method
-  ajax.open("GET", "https://jsonplaceholder.typicode.com/todos");
+  ajax.open("POST", "https://jsonplaceholder.typicode.com/todos");
 
   // Step 3 : Place a request
-  ajax.send();
+  ajax.send(
+    JSON.stringify({
+      title: "Test ToDo",
+    })
+  );
 
   // Step 4 : Wait for the response (Keep tracking the dispatched SMS)
   ajax.addEventListener("readystatechange", onReadyStateChange);
