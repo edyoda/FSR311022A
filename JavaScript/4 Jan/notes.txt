@@ -1,0 +1,3 @@
+Library? Collection of methods/functions in a .js file
+
+jQuery => Library (DOM related operations)

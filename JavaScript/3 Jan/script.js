@@ -39,18 +39,18 @@ console.log("Hey there..");
 // ARRAY FILTER METHOD TO FILTER THE RESULTS ON CERTAIN CONDITION
 // const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
 
-// function filterWords (word) {
-//   // Decide if you to filter/keep that word
-//   if(word.length > 6) {
-//     return true;
-//   	// accept the word
-//   } else {
-//     return false;
-//   	// reject the word
-//   }
-// }
+function filterWords (word) {
+  // Decide if you to filter/keep that word
+  if(word.length > 6) {
+    return true;
+  	// accept the word
+  } else {
+    return false;
+  	// reject the word
+  }
+}
 
 // const result = words.filter(filterWords);
 
-// console.log(result);
+console.log(result);
 // // expected output: Array ["exuberant", "destruction", "present"]

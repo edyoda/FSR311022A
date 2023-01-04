@@ -274,8 +274,25 @@ function onKeyUp(e) {
   var searchWord = e.target.value.toLowerCase();
 
   function onProductListFilter(product) {
-    var includes = product.name.toLowerCase().includes(searchWord);
-    return includes;
+    //   {
+    //     id: string;
+    //     name: string;
+    //     preview: string;
+    //     photos: string[];
+    //     description: string;
+    //     size: number[];
+    //     isAccessory: boolean;
+    //     brand: string;
+    //     price: number;
+    // }
+
+    if (product.name.includes(searchKey)) {
+      return true;
+    } else {
+      return false;
+    }
+    // var includes = product.name.toLowerCase().includes(searchWord);
+    // return includes;
   }
 
   var filteredProductList = productList.filter(onProductListFilter);
