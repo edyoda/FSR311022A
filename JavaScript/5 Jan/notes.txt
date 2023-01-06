@@ -1,0 +1,19 @@
+OOPs => Object Oriented Programming Concepts (MOST IMPORTANT TOPIC - INTERVIEW)
+
+Pre Requisits for OOP : Classes & Object
+
+Normal Definition : Classes: Collection of variables and functions
+Fancy Definition : Classes : Collection of Data member and member functions.
+
+Objects/Instance : These are the instances which represents a class
+
+1. Encapsulation : Storing public and private values inside a single entity (class).
+2. Abstraction : Hiding the unncessesary details (implementation logic) and showing only the necessary one to the user.
+3. Inheritance : Inherting the properties of parent by a child.
+4. Polymorphism : Ability to exists in more than 1 form.
+
+
+
+A capsule has 2 types properties :
+Public : Anyone can access it from outside the capsule
+Private : Only the methods inside the capsule can access it.
