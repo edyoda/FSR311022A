@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .err-span {
+        color: red;
+        display: none;
+      }
+    </style>
+    <title>Revision</title>
+  </head>
+  <body>
+    <h1>Revision</h1>
+    <form id="regForm">
+      <div>
+        <label for="username">Username</label>
+        <input id="username" name="username" type="text" />
+        <br />
+        <span id="usernameError" class="err-span"
+          >Username shoud only contain alphabets and must be between 8 and 14
+          character</span
+        >
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="text" />
+        <br />
+        <span id="emailError" class="err-span">Invalid email address</span>
+      </div>
+      <input type="submit" />
+    </form>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

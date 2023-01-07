@@ -93,7 +93,18 @@ const userName = "John";
  * \D => Non digits
  * \s => Spaces
  * \S => Not a space
- * [] => Range
+ * [a-z] => Range
  * * => 0 or more
  * + => 1 or more
+ * ^ => Starting of the string
+ * $ => Ending of the string
+ * {} => Min and max length
  */
+
+/**
+ * Options in regex :
+ * i => Case insensitive
+ * g => Global
+ */
+
+// https://regex101.com/
