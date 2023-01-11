@@ -1,0 +1,2 @@
+sir if possible can u give a small example of error handling method
+sir i'm getting problems on appending the data by api call can you please show once
