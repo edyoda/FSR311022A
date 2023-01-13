@@ -1,0 +1,73 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h2 {
+  margin: 0px 10px;
+}
+
+header i {
+  margin: 0px 5px;
+  font-size: 20px;
+}
+
+.feeds-card .cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feeds-card .cta i {
+  font-size: 20px;
+  margin: 0px 5px;
+}
+
+.feeds-card .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+
+.feeds-card .header img {
+  width: 30px;
+  height: 30px;
+}
+
+.feeds-card .header div:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.feeds-card .header div:first-child img {
+  margin-right: 10px;
+}
+
+.feeds-card .post-img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+}
+
+.feeds-card {
+  border-bottom: 1px solid #80808047;
+  padding: 10px 0px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px 0px;
+}
+
+.red {
+  color: red;
+}
