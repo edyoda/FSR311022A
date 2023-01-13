@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/35c398e458.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Netflix</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <div>
+          <img
+            src="https://nextflix-azure.vercel.app/_next/image?url=%2Fassets%2Flogo.png&w=256&q=75"
+            alt="Netflix"
+          />
+          <a>Home</a>
+          <a>TV Shows</a>
+          <a>Movies</a>
+          <a>Popular</a>
+          <a>My List</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-regular fa-bell"></i>
+          <i class="fa-regular fa-user"></i>
+        </div>
+      </header>
+      <section class="banner">
+        <img
+          class="banner-img"
+          src="https://image.tmdb.org/t/p/original/bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg"
+          alt="Banner"
+        />
+        <div class="info">
+          <h1>Black Adam</h1>
+          <p>
+            Nearly 5,000 years after he was bestowed with the almighty powers of
+            the Egyptian gods—and imprisoned just as quickly—Black Adam is freed
+            from his earthly tomb, ready to unleash his unique form of justice
+            on the modern world.
+          </p>
+          <div>
+            <button>Play</button>
+            <button>More Info</button>
+          </div>
+        </div>
+      </section>
+      <div>
+        <section>
+          <h2>Popular Movies</h2>
+          <div id="genreSection" class="cards-container"></div>
+        </section>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
