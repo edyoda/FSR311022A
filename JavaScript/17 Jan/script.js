@@ -57,3 +57,10 @@ class Atm {
 const atm = new Atm();
 console.log(atm)
 // atm.withdrawMoney(amountToBeWithdrawn);
+
+
+// Car => Encapsulation
+// Starting a car => Abstraction
+
+// Mobile => Encapsulation
+// Making a phone call => Abstraction
