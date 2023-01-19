@@ -17,3 +17,10 @@ const cartItem = [
 localStorage.setItem("cart", cartItem);
 
 localStorage.getItem("cart");
+
+// Changing file for github
+/**
+ * 1. Add the file
+ * 2. Write a commint message
+ * 3. Push the file
+ */
