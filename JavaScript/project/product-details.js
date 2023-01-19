@@ -20,7 +20,7 @@ localStorage.getItem("cart");
 
 // Changing file for github
 /**
- * 1. Add the file
- * 2. Write a commint message
- * 3. Push the file
+ * 1. Add the file (git add <filename>)
+ * 2. Write a commint message (git commit -m "<commit message her>")
+ * 3. Push the file (git push)
  */
