@@ -17,6 +17,7 @@ const cartItem = [
 localStorage.setItem("cart", cartItem);
 
 localStorage.getItem("cart");
+localStorage.getItem("cart");
 
 // Changing file for github
 /**
