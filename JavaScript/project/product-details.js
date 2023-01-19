@@ -25,3 +25,4 @@ localStorage.getItem("cart");
  * 2. Write a commint message (git commit -m "<commit message her>")
  * 3. Push the file (git push)
  */
+// Changes added from github website
